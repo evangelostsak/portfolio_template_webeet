@@ -20,14 +20,7 @@ export const certifications: Certification[] = [
     href: 'https://www.credly.com/badges/fd81dc9b-56cd-4232-9f91-1f2c7bad3de6/public_url',
     alt: 'AWS Certified Solutions Architect – Associate Badge',
     status: 'earned',
-  },
-  {
-    title: 'AWS Certified Solutions Architect – Professional (Next Milestone)',
-    image: 'https://images.credly.com/size/680x680/images/2d84e428-9078-49b6-a804-13c15383d0de/image.png',
-    href: 'https://www.credly.com/org/amazon-web-services/badge/aws-certified-solutions-architect-professional',
-    alt: 'AWS Certified Solutions Architect – Professional (In Progress)',
-    status: 'in-progress',
-  },
+  }
 ];
 
 // NOTE: Place the image files at public/images/certifications/ with the exact filenames above.

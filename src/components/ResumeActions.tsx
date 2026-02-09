@@ -8,7 +8,7 @@ type Props = {
   downloadLabel?: string;
 };
 
-export function ResumeActions({ pdfPath = '/files/resume.pdf', version = 'v2025.10', downloadLabel = 'Download' }: Props) {
+export function ResumeActions({ pdfPath = '/files/resume.pdf', version = 'v2026.02', downloadLabel = 'Download' }: Props) {
   const [size, setSize] = useState<string | null>(null);
   const [copied, setCopied] = useState(false);
   const [tooltip, setTooltip] = useState<string | null>(null);
